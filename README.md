@@ -11,7 +11,7 @@ The project features a sleek, modern web interface with a glassmorphism UI effec
 ## Project Screenshots:
 
 ### 🔹 Home Page – Upload Form
-![Home Page](screenshots/screenshot1.png)
+![Home Page](https://github.com/Anuraj4/Images/blob/main/Screenshot%202025-06-07%20203558.png)
 
 ### 🔹 Match Score Result Page
 ![Result Page](screenshots/screenshot2.png)

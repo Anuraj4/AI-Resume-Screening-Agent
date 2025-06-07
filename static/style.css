@@ -1,0 +1,88 @@
+/* Reset and base */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background:       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Glass effect */
+.body-glass {
+    backdrop-filter: blur(8px);
+}
+
+.container, .result-container {
+    background: rgb(255 255 255 / 20%);
+    border-radius: 20px;
+    padding: 100px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 90%;
+    max-width: 500px;
+    color: white;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: black;
+}
+
+.input, .textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+.textarea {
+    resize: none;
+    height: 150px;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: black
+}
+
+.button {
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Score page */
+.score {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
